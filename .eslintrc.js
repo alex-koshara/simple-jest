@@ -18,6 +18,7 @@ module.exports = {
   ignorePatterns: ['.eslintrc.js'],
   "rules": {
     "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/no-unsafe-declaration-merging": "off",
     "@typescript-eslint/no-unused-vars": [
       "off"
     ],
