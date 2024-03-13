@@ -9,7 +9,7 @@ import {
   Post,
 } from '@nestjs/common';
 
-import { CreateReviewDto } from 'src/auth/dto/create-review.dto';
+import { CreateReviewDto } from './../auth/dto/create-review.dto';
 import { ReviewService } from './review.service';
 import { REVIEW_NOT_FOUND } from './review.constants';
 
