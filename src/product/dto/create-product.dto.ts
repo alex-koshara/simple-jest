@@ -3,7 +3,6 @@ import { IsNumber, IsString, IsOptional, ValidateNested, IsArray } from 'class-v
 
 class ProductCharacteristicDTO {
   name: string;
-
   value: string;
 }
 

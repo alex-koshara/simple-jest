@@ -10,7 +10,7 @@ import { ReviewModel } from 'src/review/review.model';
 export class ProductService {
   constructor(@InjectModel(ProductModel) private readonly productModel: ModelType<ProductModel>) {}
 
-  async create(dto: CreateProductDTO) {
+  async create(dto: CreateProductDTO): Promise<CreateProductDTO> {
     return this.productModel.create(dto);
   }
 
