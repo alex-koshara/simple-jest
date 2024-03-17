@@ -13,7 +13,7 @@ jobs:
         uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           registry: docker.pkg.github.com
-          name: docker.pkg.githuub.com/alex-koshara/simple-jest/simple-jest
+          name: docker.pkg.githuub.com/alex-koshara/simple-jest
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           tags: "develop"
