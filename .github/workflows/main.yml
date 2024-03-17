@@ -14,4 +14,6 @@ jobs:
         with:
           registry: docker.pkg.github.com
           name: docker.pkg.githuub.com/alex-koshara/simpleJest/top-api
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
           tags: "develop"
