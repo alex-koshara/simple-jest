@@ -2,15 +2,15 @@ name: Publish Docker
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - name: Publish to registry
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           registry: docker.pkg.github.com
           name: docker.pkg.githuub.com/alex-koshara/simpleJest/top-api
