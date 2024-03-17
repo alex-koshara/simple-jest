@@ -1,7 +1,7 @@
 version: '3'
 services:
   top.api:
-    image: top-api:latest
+    image: docker.pkg.githuub.com/alex-koshara/simple-jest/simple-jest
     container_name: top-api
     restart: always
     ports:
