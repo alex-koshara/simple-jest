@@ -41,7 +41,8 @@
     "passport-jwt": "^4.0.1",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1",
-    "sharp": "^0.33.2"
+    "sharp": "^0.33.2",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
@@ -58,6 +59,7 @@
     "@types/passport-jwt": "^4.0.1",
     "@types/sharp": "^0.32.0",
     "@types/supertest": "^6.0.0",
+    "@types/xml2js": "^0.4.14",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.42.0",
