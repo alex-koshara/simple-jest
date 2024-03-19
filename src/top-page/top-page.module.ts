@@ -3,6 +3,8 @@ import { TypegooseModule } from 'nestjs-typegoose';
 import { TopPageController } from './top-page.controller';
 import { TopPageModel } from './top-page.model';
 import { TopPageService } from './top-page.service';
+import { HhModule } from 'src/hh/hh.module';
+import { SitemapController } from 'src/sitemap/sitemap.controller';
 
 @Module({
   controllers: [TopPageController],
@@ -15,8 +17,8 @@ import { TopPageService } from './top-page.service';
         },
       },
     ]),
+    HhModule,
   ],
   providers: [TopPageService],
-  exports: [TopPageService],
 })
 export class TopPageModule {}
